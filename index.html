@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <div class="overlay" id="overlay">
+        <h3>Searching now...</h3>
+    </div>
+    <nav>
+        <div class="logo">
+            <h4>THE NERS</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Specialty</a></li>
+            <li><a href="#">Appointment</a></li>
+        </ul>
+        <ul class="regis">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+        </ul>
+        <!-- hamburger button -->
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="hero-bg">
+        <section class="top">
+            <h1><span>The Easy</span> Home Care Experience</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vel aliquid ratione sit eaque vitae ut similique tempore dolorem suscipit?</p>
+            <div class="form-container">
+                <form action="#">
+                    <div class="form-left">
+                        <label for="city">Enter your city:</label>
+                        <input type="text" name="city" id="city">
+                        <p>Example: "Depok, Jawa Barat"</p>
+                    </div>
+
+                    <input type="button" value="Find Nurse Now" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Let's Find Your Nurse</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa, ex non minus ea possimus nisi est doloremque incidunt suscipit numquam rerum voluptas magni cupiditate! Delectus error aut asperiores ipsa!</p>
+        </div>
+        <img src="./img/about.jpg" alt="Nurse cunsult with elderly patient and family">
+    </section>
+    
+    
+    <p class="darkLight">
+        <span onclick="setDarkMode(false)">Light</span> /
+        <span onclick="setDarkMode(true)">Dark</span>
+    </p>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
